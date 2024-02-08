@@ -1,4 +1,4 @@
-.skiptomain {
+.skiptomain a {
     position: absolute;
     display: block;
     background-color: #FFFFFF;
@@ -10,7 +10,7 @@
     font-size: 0.5em;
 }
 
-.skiptomain:focus {
+.skiptomain a:focus {
     left: 10px;
 }
 
@@ -173,7 +173,7 @@ li {
 
 @media only screen and (min-width: 640px) {
 
-    .skiptomain {
+    .skiptomain a {
         top: 10px;
         font-size: 0.6em;
     }
@@ -269,16 +269,3 @@ li {
     }
     
 }
-
-/* img {
-    max-width: 80%;
-} */
-
-/* .photo_gallery {
-    display: grid;
-    border: 1px solid #000;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 10px;
-    justify-content: stretch;
-} */
